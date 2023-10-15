@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Pixelify+Sans:wght@500&family=Tourney:wght@200&display=swap");
+
+/* .navbar{
+  background-color: rgb(243, 188, 37);
+  height: 60px;
+} */
+
+.content-box {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+.content-box > div {
+  margin: 150px;
+}
+.content-box h1 {
+  text-align: left;
+  color: white;
+  /* font-family: 'Pixelify Sans', sans-serif; */
+  font-family: "Tourney", sans-serif;
+  font-size: 50px;
+}
+.content-box p {
+  font-family: "Pixelify Sans", sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+.image-box {
+  height: 100vh;
+  background-color: rgb(85, 119, 151);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: unset;
+}
+
+.profile-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-box {
+    height: 700px;
+    background-color: black;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content-box > div {
+    margin: 40px;
+  }
+  .image-box {
+    height: 50%;
+    background-color: rgb(85, 119, 151);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: unset;
+  }
+  .profile-image {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+a {
+  border: none;
+  padding: 5px 50px 5px 50px;
+  transition: 0.3s ease-in-out;
+  font-family: "Changa", sans-serif;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: rgb(37, 148, 223);
+}
