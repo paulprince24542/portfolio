@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="container-fluid">
         <div className="row ">
           <div className="col-md-6 hero-section-2">
-            <img src="/images/hero-4.png" alt="" />
+            <img src="/images/hero-5.png" alt="" />
           </div>
           <div className="col-md-6 hero-section-1">
             <div className="hero-content-wrapper">
